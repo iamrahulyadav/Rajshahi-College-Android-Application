@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:background="#f9f5f5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rajshahi College Campus"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rcollege"
+                android:layout_marginTop="5dp"
+                android:background="#f5f4f4"
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01. Rajshahi College Administrator Building:"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:id="@+id/textView5"
+                android:textColor="@color/colorPrimary"
+                android:background="#f5f4f4"
+                android:layout_gravity="left"
+                />
+
+            <WebView
+                android:id="@+id/wv_adbuilding"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02. Principal`s Residence:"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:background="#f5f4f4"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_Principal_Building"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="03. Teacher`s Quarters: "
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_Tq_Building"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="04. Playground: "
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_play_ground"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="05. Botanical Garden and Natural Aquarium: "
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_Bg_Na"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="06. Auditorium:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_auditorium"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="07. Bank Booth:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_bank_booth"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="08. Teacher`s Club:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_teacher_club"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="09. Health Center:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_health_center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="10. Gymnasium:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_gymnasium"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="11. Canteen:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_canteen"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="12. Student Common-Room:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_student_common_room"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="13. Garage:"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+            <WebView
+                android:id="@+id/wv_garage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+            </WebView>
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Other important buildings: "
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="left"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rc_physics"
+                android:id="@+id/imageView2" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physics Department"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/library"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Central Library"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "803501381405",
+    "firebase_url": "https://rajshahicollegechatapp.firebaseio.com",
+    "project_id": "rajshahicollegechatapp",
+    "storage_bucket": "rajshahicollegechatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803501381405:android:95b0a97655226b6e",
+        "android_client_info": {
+          "package_name": "com.example.hppc.rcderectory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803501381405-autcv51oj8pqb5eq3u08jkbp4rld17qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYqlo3HZ5MEAJ1a1VQt-ftGpCQYOaZGi8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

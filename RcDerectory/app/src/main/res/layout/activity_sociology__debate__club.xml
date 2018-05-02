@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sociology__debate__club"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hppc.rcderectory.extra_curriculum.Sociology_Debate_Club"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Sociology Debate Club Rajshahi College"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:background="#f5f4f4"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/sdc_img"
+                android:src="@drawable/exc_13_sociology_debate_club"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <WebView
+                android:id="@+id/sdcWv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                >
+            </WebView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

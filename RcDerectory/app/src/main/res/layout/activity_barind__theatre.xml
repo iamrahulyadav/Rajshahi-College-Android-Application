@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_barind__theatre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hppc.rcderectory.extra_curriculum.Barind_Theatre"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:text="Rajshahi College Barind Theatre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/colorPrimary"
+                android:background="#f5f4f4"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/bt_img"
+                android:src="@drawable/exc_07_barind_theater_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:paddingTop="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/bt_img_2"
+                android:src="@drawable/exc_07_barind_theater_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <WebView
+                android:id="@+id/btWv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                >
+            </WebView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

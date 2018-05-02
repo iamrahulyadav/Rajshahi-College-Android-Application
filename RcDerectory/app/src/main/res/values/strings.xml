@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Rajshahi College</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Setting</string>
+
+    <!--my custom Option Menu Start-->
+    <!--<string name="title_select">Select Your Department</string>-->
+    <string name="title_Bangla">Bangla</string>
+    <string name="title_english">English</string>
+    <string name="title_irb_and_istdy">Arabic and Islamic Studies</string>
+    <string name="title_history">History</string>
+    <string name="title_IH_and_cul">Islamic History and Culture</string>
+    <string name="title_philosophy">Philosophy</string>
+    <string name="title_sanskrit">Sanskrit</string>
+    <string name="title_urdu">Urdu</string>
+
+    <string name="title_accounting">Accounting</string>
+    <string name="title_finance_and_banking">Finance and Banking</string>
+    <string name="title_management">Management</string>
+    <string name="title_marketing">Marketing</string>
+
+    <string name="title_botany">Botany</string>
+    <string name="title_chemistry">Chemistry</string>
+    <string name="title_geography_and_environment">Geography and Environment</string>
+    <string name="title_mathematics">Mathematics</string>
+    <string name="title_physic">Physics</string>
+    <string name="title_psychology">Psychology</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_zoology">Zoology </string>
+
+    <string name="title_economics">Economics</string>
+    <string name="title_political_science">Political Science</string>
+    <string name="title_social_work">Social Work</string>
+    <string name="title_sociology">Sociology</string>
+    <!--my custom Option Menu end-->
+
+    <!--Top four buttons start-->
+    <string name="web">RCweb</string>
+    <string name="fb">RC FbLink</string>
+    <string name="rcbarta">RCbarta</string>
+    <string name="radio">RCRadio</string>
+
+    <!--Top four buttons end-->
+
+
+    <!--Start of Four Emergency Button-->
+    <string name="principal">Principal</string>
+    <string name="vice_principal">Vice\nPrincipal</string>
+    <string name="send_mail">Notice Board</string>
+    <string name="about_college">About\nCollege</string>
+    <!--End of Four Emergency Button-->
+
+    <!--Bottom two buttons Start-->
+    <string name="continue_button">Continue...</string>
+    <string name="location">Location</string>
+    <!--Bottom two buttons End-->
+
+    <!--Every Department Bottom 4 Button-->
+    <string name="call_buton">Call</string>
+    <string name="email_button">E-mail</string>
+    <string name="about_buton">About</string>
+    <string name="details_buton">Details...</string>
+
+    <!--Auto Created by android Studio-->
+    <string name="title_activity_all__facebook__link">All_Facebook_Link</string>
+    <string name="title_activity_all__contact__list">All_Contact_List</string>
+    <string name="title_activity_mathematics__depertment">Mathematics Department</string>
+    <string name="title_activity_show_teacher_list">show_teacher_list</string>
+    <string name="title_activity_physich_department">Physics Department</string>
+    <string name="title_activity_zoology__department">Zoology Department</string>
+    <string name="title_activity_official__website">College Official Website</string>
+    <string name="title_activity_statistics__department">Statistics Department</string>
+    <string name="title_activity_psychology__department">Psychology Department</string>
+    <string name="title_activity_chemistry__department">Chemistry Department</string>
+    <string name="title_activity_botany__department">Botany Department</string>
+    <string name="title_activity_geography_and__environment">Geography and Environment</string>
+    <string name="title_activity_arabic_and__islamic__studies">Arabic and Islamic Studies</string>
+    <string name="title_activity_bengali__department">Bengali Department</string>
+    <string name="title_activity_history__department">History Department</string>
+    <string name="title_activity_english__department">English Department</string>
+    <string name="title_activity_islamic__history_and__culture">Islamic History and Culture</string>
+    <string name="title_activity_philosophy__department">Philosophy Department</string>
+    <string name="title_activity_about__us">About_Us</string>
+    <string name="title_activity_sanskrit__department">Sanskrit Department</string>
+    <string name="title_activity_urdu__department">Urdu Department</string>
+    <string name="title_activity_accounting__department">Accounting Department</string>
+    <string name="title_activity_finance_and__banking">Finance and Banking</string>
+    <string name="title_activity_management__department">Management_Department</string>
+    <string name="title_activity_marketing__department">Marketing Department</string>
+    <string name="title_activity_economics__department">Economics Department</string>
+    <string name="title_activity_political__science__department">Political_Science_Department</string>
+    <string name="title_activity_social__work__department">Social Work Department</string>
+    <string name="title_activity_sociology__department">Sociology Department</string>
+    <string name="title_activity_brief__history">Brief History</string>
+    <string name="title_activity_principal">Principals Message and Lifesketch</string>
+    <string name="title_activity_vice__principal">Vice Principal</string>
+    <string name="title_activity_library">RC College Library</string>
+    <string name="title_activity_about_college">About College</string>
+    <string name="title_activity_location__rajshahi__college">Location Rajshahi College</string>
+
+    <!--For Navigation Drawer-->
+    <string name="opend">Open</string>
+    <string name="closed">Close</string>
+
+    <!--For Location Rajshahi College-->
+    <string name="map_type_non">None</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_satelite">Satelite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+
+    <!--About Us Activity-->
+    <string name="mail_us">Mail Us</string>
+    <!--About Us Activity-->
+
+    <!--About Rajshahi College-->
+    <string name="bengali_option">Bengali</string>
+    <string name="english_option">English</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

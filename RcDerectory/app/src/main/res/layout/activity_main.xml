@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/drawerLayout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="9"
+        android:orientation="vertical"
+        android:background="#e3e3e3"
+        >
+
+        <!--Start of Four Four Link Button-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:weightSum="4"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/web"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:onClick="web_button"
+                    android:layout_marginRight="1dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/fb"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:id="@+id/all_fb"
+                    android:onClick="facebook_button"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:layout_marginRight="1dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/rcbarta"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:onClick="rc_barta"
+                    android:layout_marginRight="1dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/radio"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:onClick="radio"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>      <!--Start of Four Four Link Button-->
+
+
+        <!--Start of College Image-->
+        <LinearLayout
+            android:id="@+id/A_building_layout"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            >
+
+            <ImageView
+                android:id="@+id/A_building"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rcollege"
+                android:layout_below="@+id/linearLayout"
+                />
+        </LinearLayout>             <!--End of College Image-->
+
+
+        <!--Start of Four Emergency Button-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/Rlayout_4Button"
+            android:layout_below="@+id/A_building_layout"
+            android:background="#ffffff"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginBottom="2dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/principal"
+                        android:drawableLeft="@mipmap/ic_launcher_principal"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:onClick="call_principal"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginRight="1dp"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/vice_principal"
+                        android:drawableLeft="@mipmap/ic_person_white_48dp"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:onClick="call_vice_principal"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginLeft="1dp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/send_mail"
+                        android:drawableLeft="@drawable/ic_action_name_nboard"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:onClick="notice_board"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginRight="1dp"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/about_college"
+                        android:drawableLeft="@mipmap/ic_account_balance_white_48dp"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textSize="16dp"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:onClick="about_college"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginLeft="1dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <!--End of Four Emergency Button-->
+
+
+        <!--Start of bottom two Buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/Rlayout_4Button"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:layout_margin="2dp"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="@string/location"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginRight="1dp"
+                android:onClick="g_location"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="@string/continue_button"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:onClick="continue_button"
+                android:layout_marginLeft="1dp"
+                />
+        </LinearLayout>
+        <!--End of bottom two Buttons-->
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/nav_header"
+        app:itemBackground="@drawable/nav_press_gray"
+        android:layout_gravity="start"
+        android:id="@+id/navigationView"
+        >
+    </android.support.design.widget.NavigationView>
+
+
+
+</android.support.v4.widget.DrawerLayout>
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="81dp"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/teacherImg"
+        android:background="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Teacher Name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/teacherImg"
+        android:layout_marginLeft="5dp"
+        android:gravity="bottom"
+        android:layout_toStartOf="@+id/teacher_possition"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_toLeftOf="@+id/teacher_possition"
+        android:id="@+id/teacher_name"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Phone Number"
+        android:id="@+id/teacher_pnumber"
+        android:layout_alignBottom="@+id/teacherImg"
+        android:layout_toRightOf="@+id/teacherImg"
+        android:layout_marginLeft="5dp"
+        android:gravity="top"
+        android:layout_toLeftOf="@+id/teacher_possition"
+        android:layout_toStartOf="@+id/teacher_possition"
+
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Assistant\nProffasor"
+        android:id="@+id/teacher_possition"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0000ff"
+        android:layout_below="@+id/teacherImg"
+        >
+
+    </View>
+
+
+
+
+</RelativeLayout>

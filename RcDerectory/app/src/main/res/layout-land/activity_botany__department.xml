@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hppc.rcderectory.Botany_Department"
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:background="#e3e3e3"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nember of Teachers : 14\nNumber of Students: 1050"
+            android:id="@+id/textView7"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Established\n1930"
+            android:id="@+id/textView8"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff0000"
+        >
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/botanyTeacher_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#e3e3e3"
+            android:layout_marginTop="3dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0000ff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:paddingBottom="0dp"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/call_buton"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="1dp"
+            android:onClick="d_call"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/email_button"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="1dp"
+            android:onClick="send_mail"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/about_buton"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="1dp"
+            android:onClick="about_depaetment"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/details_buton"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:onClick="department_details"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

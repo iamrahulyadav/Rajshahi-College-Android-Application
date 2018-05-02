@@ -1,0 +1,262 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/drawerLayout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6"
+        android:orientation="vertical"
+        android:background="#e3e3e3"
+
+        >
+
+        <!--Start of Four Four Link Button-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout"
+            android:background="#ffffff"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:weightSum="4"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/web"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:onClick="web_button"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/fb"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:id="@+id/all_fb"
+                    android:onClick="facebook_button"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/rcbarta"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:onClick="rc_barta"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/radio"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_background"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:onClick="radio"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/A_building_layout"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="2dp"
+                android:background="#e3e3e3"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:layout_gravity="center"
+                    android:src="@drawable/rcollege_landscape"
+                    />
+            </LinearLayout>
+
+            <!--4 button start-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_margin="5dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:layout_marginBottom="1dp"
+                    >
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/principal"
+                        android:drawableLeft="@mipmap/ic_launcher_principal"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:onClick="call_principal"
+                        android:background="@drawable/center_four_button"
+                        android:id="@+id/button2"
+                        android:layout_marginRight="1dp"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/vice_principal"
+                        android:drawableLeft="@mipmap/ic_person_white_48dp"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:onClick="call_vice_principal"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginLeft="1dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:layout_marginTop="1dp"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/send_mail"
+                        android:drawableLeft="@drawable/ic_action_name_nboard"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:onClick="send_mail"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginRight="1dp"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/about_college"
+                        android:drawableLeft="@mipmap/ic_account_balance_white_48dp"
+                        android:textColor="#303F9F"
+                        android:gravity="center"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:onClick="about_college"
+                        android:background="@drawable/center_four_button"
+                        android:layout_marginLeft="1dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--4 button end-->
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/Rlayout_4Button"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="@string/location"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginRight="2dp"
+                android:onClick="g_location"
+                android:layout_marginTop="2dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="@string/continue_button"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:onClick="continue_button"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                />
+        </LinearLayout>
+        <!--End of bottom two Buttons-->
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/nav_header"
+        app:itemBackground="@drawable/nav_press_gray"
+        android:layout_gravity="start"
+        android:id="@+id/navigationView"
+        >
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+

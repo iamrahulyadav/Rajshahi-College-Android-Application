@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="3dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <WebView
+                android:id="@+id/web_view_Awardlistt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                >
+            </WebView>
+
+            <WebView
+                android:id="@+id/web_view_Awardlist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                >
+            </WebView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

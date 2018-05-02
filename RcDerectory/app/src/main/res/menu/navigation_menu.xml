@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/about_college"
+        android:icon="@mipmap/ic_launcher_campus"
+        android:title="About College"/>
+
+    <item android:id="@+id/principal"
+        android:icon="@mipmap/ic_launcher_principal"
+        android:title="Principal"/>
+
+    <item android:id="@+id/vice_principal"
+        android:icon="@mipmap/ic_launcher_principal"
+        android:title="Vice Principal"/>
+
+    <item android:id="@+id/all_fblink"
+        android:icon="@mipmap/ic_launcher_allfb"
+        android:title="All Facebook Link"/>
+
+    <item
+        android:id="@+id/continue_all"
+        android:icon="@mipmap/ic_launcher_continue"
+        android:title="Continue..."/>
+
+    <item
+        android:id="@+id/public_chat"
+        android:icon="@mipmap/ic_chat"
+        android:title="Public Chat"/>
+
+    <item
+        android:id="@+id/user_reg"
+        android:icon="@drawable/ic_action_user_reg"
+        android:title="User Registration"/>
+
+    <item
+        android:id="@+id/location"
+        android:icon="@mipmap/ic_place_black_48dp"
+        android:title="Location"/>
+
+    <item android:id="@+id/more"
+        android:title="More...">
+
+        <menu>
+            <item android:id="@+id/share"
+                android:icon="@mipmap/ic_share"
+                android:title="Share"/>
+
+            <item android:id="@+id/about_us"
+                android:icon="@mipmap/ic_launcher_abus"
+                android:title="About"/>
+        </menu>
+
+    </item>
+
+
+</menu>

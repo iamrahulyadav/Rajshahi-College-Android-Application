@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@+id/id_select"-->
+        <!--android:title="@string/title_select"-->
+        <!-->-->
+    <!--</item>-->
+    <item android:id="@+id/id_bangla"
+        android:title="@string/title_Bangla"
+        >
+    </item>
+    <item android:id="@+id/id_english"
+        android:title="@string/title_english"
+        >
+    </item>
+    <item android:id="@+id/id_arabic_and_isalamic_studies"
+        android:title="@string/title_irb_and_istdy"
+        >
+    </item>
+    <item android:id="@+id/id_history"
+        android:title="@string/title_history"
+        >
+    </item>
+    <item android:id="@+id/id_philosophy"
+        android:title="@string/title_philosophy"
+        >
+    </item>
+    <item android:id="@+id/id_sanskrit"
+        android:title="@string/title_sanskrit"
+        >
+    </item>
+    <item android:id="@+id/id_urdu"
+        android:title="@string/title_urdu"
+        >
+    </item>
+
+
+    <item android:id="@+id/id_accounting"
+        android:title="@string/title_accounting"
+        >
+    </item>
+    <item android:id="@+id/id_finance_and_banking"
+        android:title="@string/title_finance_and_banking"
+        >
+    </item>
+    <item android:id="@+id/id_marketing"
+        android:title="@string/title_marketing"
+        >
+    </item>
+    <item
+        android:id="@+id/id_management"
+        android:title="@string/title_management"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/id_botany"
+        android:title="@string/title_botany"
+        >
+    </item>
+    <item
+        android:id="@+id/id_chemistry"
+        android:title="@string/title_chemistry"
+        >
+    </item>
+    <item
+        android:id="@+id/id_geography_and_environment"
+        android:title="@string/title_geography_and_environment"
+        >
+    </item>
+    <item
+        android:id="@+id/id_mathematics"
+        android:title="@string/title_mathematics"
+        >
+    </item>
+    <item
+        android:id="@+id/id_physic"
+        android:title="@string/title_physic"
+        >
+    </item>
+    <item
+        android:id="@+id/id_psychology"
+        android:title="@string/title_psychology"
+        >
+    </item>
+    <item
+        android:id="@+id/id_statistics"
+        android:title="@string/title_statistics"
+        >
+    </item>
+    <item
+        android:id="@+id/id_zoology"
+        android:title="@string/title_zoology"
+        >
+    </item>
+
+    <item
+        android:id="@+id/id_economics"
+        android:title="@string/title_economics"
+        >
+
+    </item>
+    <item
+        android:id="@+id/id_political_science"
+        android:title="@string/title_political_science"
+        >
+
+    </item>
+    <item
+        android:id="@+id/id_social_work"
+        android:title="@string/title_social_work"
+        >
+
+    </item>
+    <item
+        android:id="@+id/id_sociology"
+        android:title="@string/title_sociology"
+        >
+
+    </item>
+
+</menu>
