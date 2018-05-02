@@ -55,9 +55,9 @@
 
 <hr/>
 <h2>Home Screen Landscape and Portrait</h2>
-<div style{display: inline;}>
+<div style{display: inline; margin: 5px;}>
     <img src="Image/home_screen_1.png" width="252" height="448">
-    <img src="Image/home_screen_2.png" width="252" height="448">
+    <img src="Image/home_screen_2.png" width="448" height="252">
 </div>
 
 <hr/>
