@@ -1,4 +1,7 @@
 <h1>Name : Rajshahi College</ha>
+<hr/>
+
+<h1>Official Android Application for "Rajshahi College" and this project is under development</ha>
 
 <hr/>
 <h3>Project Features</h3>
