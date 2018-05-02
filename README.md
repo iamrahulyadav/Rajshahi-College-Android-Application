@@ -61,19 +61,27 @@
 </div>
 
 <hr/>
-<h2>Menu, Food under menu and Food details with cart</h2>
+<h2>Navigation Drawer, Menu Bar and Tab Lauout</h2>
 <div style{display: inline;}>
-    <img src="Image/Screenshot_2018-04-25-03-17-57.png" width="252" height="448">
-    <img src="Image/Screenshot_2018-04-25-03-18-15.png" width="252" height="448">
-    <img src="Image/Screenshot_2018-04-25-03-18-21.png" width="252" height="448">
+    <img src="Image/1_navigation_bar.png" width="252" height="448">
+    <img src="Image/2_option_bar.png" width="252" height="448">
+    <img src="Image/2_option_bar.png" width="252" height="448">
 </div>
 
 <hr/>
-<h2>Food details, CollapsToolBar, Food Add to Cart</h2>
+<h2>Details Information About College</h2>
 <div style{display: inline;}>
-    <img src="Image/Screenshot_2018-04-25-03-18-21.png" width="252" height="448">
-    <img src="Image/Screenshot_2018-04-25-03-18-27.png" width="252" height="448">
-    <img src="Image/Screenshot_2018-04-25-03-18-37.png" width="252" height="448">
+    <img src="Image/aboutcollege_1.png" width="252" height="448">
+    <img src="Image/aboutcollege_2.png" width="252" height="448">
+    <img src="Image/aboutcollege_3.png" width="252" height="448">
+</div>
+
+<hr/>
+<h2>Details About Principal and Message</h2>
+<div style{display: inline;}>
+    <img src="Image/principal_1.png" width="252" height="448">
+    <img src="Image/principal_2.png" width="252" height="448">
+    <img src="Image/principal_3.png" width="252" height="448">
 </div>
 
 <hr/>
