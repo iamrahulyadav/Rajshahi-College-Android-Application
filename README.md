@@ -65,7 +65,7 @@
 <div style{display: inline;}>
     <img src="Image/1_navigation_bar.png" width="252" height="448">
     <img src="Image/2_option_bar.png" width="252" height="448">
-    <img src="Image/2_option_bar.png" width="252" height="448">
+    <img src="Image/home_screen_2.png" width="448" height="252">
 </div>
 
 <hr/>
@@ -77,23 +77,41 @@
 </div>
 
 <hr/>
-<h2>Details About Principal and Message</h2>
+<h2>Details information abour departments. </h2>
 <div style{display: inline;}>
-    <img src="Image/principal_1.png" width="252" height="448">
-    <img src="Image/principal_2.png" width="252" height="448">
-    <img src="Image/principal_3.png" width="252" height="448">
+    <img src="Image/department_1.png" width="252" height="448">
+    <img src="Image/department_2.png" width="252" height="448">
+    <img src="Image/department_3.png" width="252" height="448">
 </div>
 
 <hr/>
-<h2>Order Ready for Place, Place Order and Display Orders</h2>
+<h2>Notice boadr and upload notice using Restfull API</h2>
 <div style{display: inline;}>
-    <img src="Image/Screenshot_2018-04-25-03-19-00.png" width="252" height="448">
-    <img src="Image/Screenshot_2018-04-25-03-19-07.png" width="252" height="448">
-    <img src="Image/Screenshot_2018-04-25-03-19-27.png" width="252" height="448">
+    <img src="Image/notice_1.png" width="252" height="448">
+    <img src="Image/notice_2.png" width="252" height="448">
+    <img src="Image/notice_3.png" width="252" height="448">
 </div>
 
 <hr/>
-<h2>All Information Store in Database</h2>
+<h2>Realtime Chatting using Firebase</h2>
 <div style{display: inline;}>
-    <img src="Image/allOrderPlaceInFirebase.PNG">
+    <img src="Image/firebase_1.png" width="252" height="448">
+    <img src="Image/firebase_2.png" width="252" height="448">
+    <img src="Image/firebase_3.png" width="252" height="448">
+</div>
+
+<hr/>
+<h2>College Co-Curriculum Activities</h2>
+<div style{display: inline;}>
+    <img src="Image/cocar_1.png" width="252" height="448">
+    <img src="Image/cocar_2.png" width="252" height="448">
+    <img src="Image/cocar_3.png" width="252" height="448">
+</div>
+
+<hr/>
+<h2>More Information</h2>
+<div style{display: inline;}>
+    <img src="Image/info_1.png" width="252" height="448">
+    <img src="Image/info_2.png" width="252" height="448">
+    <img src="Image/info_3.png" width="252" height="448">
 </div>
