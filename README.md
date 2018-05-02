@@ -65,7 +65,7 @@
 <div style{display: inline;}>
     <img src="Image/1_navigation_bar.png" width="252" height="448">
     <img src="Image/2_option_bar.png" width="252" height="448">
-    <img src="Image/aboutcollege_3.png" width="448" height="252">
+    <img src="Image/aboutcollege_3.png" width="252" height="448">
 </div>
 
 <hr/>
@@ -95,10 +95,10 @@
 <hr/>
 <h2>Realtime Chatting using Firebase</h2>
 <div style{display: inline;}>
-    <img src="Image/firebase_1.png" width="200" height="448">
-    <img src="Image/firebase_2.png" width="200" height="448">
-    <img src="Image/firebase_3.png" width="200" height="448">
-    <img src="Image/firebase_4.png" width="200" height="448">
+    <img src="Image/firebase_1.png" width="210" height="420">
+    <img src="Image/firebase_2.png" width="210" height="420">
+    <img src="Image/firebase_3.png" width="210" height="420">
+    <img src="Image/firebase_4.png" width="210" height="420">
 </div>
 
 <hr/>
