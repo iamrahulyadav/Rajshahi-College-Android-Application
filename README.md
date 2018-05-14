@@ -22,8 +22,8 @@
 <ul>
   <li>Java</li>
   <li>XML</li>
-  <li>Restfull API</li>
-  <li>Firebase Realtime Chat</li>
+  <li>Restful API</li>
+  <li>Firebase Real-time Chat</li>
   <li>Google Location</li>
 </ul>
 
