@@ -6,15 +6,15 @@
 <hr/>
 <h3>Project Features</h3>
 <ol>
-  <li>Details information aboot College</li>
-  <li>Details information aboot 24 Departments</li>
-  <li>Details information aboot Teachers and Staff</li>
+  <li>Details information about College</li>
+  <li>Details information about 24 Departments</li>
+  <li>Details information about Teachers and Staff</li>
   <li>Different Layout for Landscape and Portrait</li>
   <li>Navigation Drawer and Menu option</li>  
   <li>Tab Layout and Google Location</li> 
-  <li>Firebase Realtime Chat Room for College</li>
-  <li>Notice Board and Upload notice Using Restfull API</li>
-  <li>Extra Co-Curriculam Activity</li>
+  <li>Firebase Real-time Chat Room for College</li>
+  <li>Notice Board and Upload notice Using Restful API</li>
+  <li>Extra Co-Curriculum Activity</li>
 </ol>
 
 <hr/>
